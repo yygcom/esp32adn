@@ -1,6 +1,11 @@
-# 需要注意电压如果电脑usb口可能会欠压导致内核恐慌
-# 需要注意电压如果电脑usb口可能会欠压导致内核恐慌
-# 需要注意电压如果电脑usb口可能会欠压导致内核恐慌
+//# 需要注意电压如果电脑usb口可能会欠压导致内核恐慌
+//# 需要注意电压如果电脑usb口可能会欠压导致内核恐慌
+//# 需要注意电压如果电脑usb口可能会欠压导致内核恐慌
+/*
+如果你正在使用 platform IO （你正在使用 platformIO 不是吗？）你可以添加这个
+Monitor_filters = esp32_exception_decoder
+到您的 platformio.ini 文件以获取有问题的错误的源代码行。
+*/
 #include <Arduino.h>
 #include <WiFi.h>
 
